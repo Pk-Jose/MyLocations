@@ -107,7 +107,7 @@ class MapViewController: UIViewController {
             let location = locations[button.tag]
             controller.locationToEdit = location
         }
-    }
+    } 
 }
 
 

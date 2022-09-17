@@ -236,7 +236,7 @@ extension LocationDetailsViewController: UIImagePickerControllerDelegate, UINavi
       }
       dismiss(animated: true, completion: nil)
     }
-    
+     
     func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
         dismiss(animated: true, completion: nil)
     }

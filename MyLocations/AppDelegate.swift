@@ -16,7 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
         print(applicationDocumentsDirectory)
-        return true
+        return true 
     }
 
     // MARK: UISceneSession Lifecycle

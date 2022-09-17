@@ -18,3 +18,4 @@ extension UIImage {
     return newImage!
   }
 }
+ 

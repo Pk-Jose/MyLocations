@@ -87,7 +87,7 @@ class CategoryPickerViewController: UITableViewController {
       if let oldCell = tableView.cellForRow(
         at: selectedIndexPath) {
         oldCell.accessoryType = .none
-      }
+      } 
       selectedIndexPath = indexPath
     }
   }

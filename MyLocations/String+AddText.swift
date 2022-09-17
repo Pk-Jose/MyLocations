@@ -14,7 +14,7 @@ extension String {
         self += separator
       }
 
-      self += text
+      self += text 
     }
   }
 

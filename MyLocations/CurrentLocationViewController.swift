@@ -357,7 +357,7 @@ class CurrentLocationViewController: UIViewController, CLLocationManagerDelegate
     
     @objc func didTimeOut() { // updates top label with error when timer ends after one minute
         print("*** Time out")
-        if location == nil {
+        if location == nil { 
             stopLocationManager()
             lastLocationError = NSError(domain: "MyLocationsErrorDomain", code: 1, userInfo: nil)
             updateLabels()
